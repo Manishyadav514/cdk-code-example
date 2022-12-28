@@ -1,0 +1,45 @@
+{
+  "name": "thumbnail-creator",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "thumbnail-creator": "bin/thumbnail-creator.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@arkweid/lefthook": "0.7.7",
+    "@aws-cdk/assert": "1.159.0",
+    "@types/aws-lambda": "8.10.108",
+    "@types/jest": "27.5.2",
+    "@types/node": "16.18.3",
+    "aws-cdk": "1.159.0",
+    "aws-lambda": "1.0.7",
+    "aws-sdk": "2.1249.0",
+    "esbuild": "0.15.13",
+    "jest": "27.5.1",
+    "prettier": "2.7.1",
+    "ts-jest": "27.1.5",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ec2": "1.159.0",
+    "@aws-cdk/aws-ecs": "1.159.0",
+    "@aws-cdk/aws-lambda": "1.159.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.159.0",
+    "@aws-cdk/aws-s3": "1.159.0",
+    "@aws-cdk/aws-s3-notifications": "1.159.0",
+    "@aws-cdk/core": "1.159.0",
+    "source-map-support": "0.5.21"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  }
+}
