@@ -1,0 +1,70 @@
+!jest.config.js
+node_modules
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# HTTP REST Client Directory
+_requests
+
+# Ignore env-specific context vars (define these locally per app stage)
+cdk.context.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+mongo/
+/.pnp
+.pnp.js
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/.vscode/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
